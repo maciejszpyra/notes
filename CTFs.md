@@ -1,5 +1,12 @@
 # Onliners and links usefull in CTFs
 
+## NC Shell stablisation
+
+* `python3 -c 'import pty;pty.spawn("/bin/bash")'`
+* `export TERM=xterm`
+* `CTRL + Z`
+* `stty raw -echo;fg`
+
 ## Reading files
 `while read line; do echo $line; done < FILENAME`
 
